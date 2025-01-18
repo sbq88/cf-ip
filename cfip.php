@@ -28,25 +28,25 @@ function getIpData($type = '')
             // 根据 line 的值进行替换
             if ($info['line'] == 'CM') {
                 if ($type === 'v6') {
-                    $content .= $info['ip'] . '#移动v6_酸菜优选' . "\r\n";
+                    $content .= $info['ip'] . '#移动v6_喵先生优选' . "\r\n";
                 } else {
-                    $content .= $info['ip'] . '#移动_酸菜优选' . "\r\n";
+                    $content .= $info['ip'] 。 '#移动_喵先生优选' . "\r\n";
                 }
             } elseif ($info['line'] == 'CU') {
                 if ($type === 'v6') {
-                    $content .= $info['ip'] . '#联通v6_酸菜优选' . "\r\n";
+                    $content .= $info['ip'] 。 '#联通v6_喵先生优选' . "\r\n";
                 } else {
-                    $content .= $info['ip'] . '#联通_酸菜优选' . "\r\n";
+                    $content .= $info['ip'] 。 '#联通_喵先生优选' . "\r\n";
                 }
 
             } elseif ($info['line'] == 'CT') {
                 if ($type === 'v6') {
-                    $content .= $info['ip'] . '#电信v6_酸菜优选' . "\r\n";
+                    $content .= $info['ip'] 。 '#电信v6_喵先生优选' . "\r\n";
                 } else {
-                    $content .= $info['ip'] . '#电信_酸菜优选' . "\r\n";
+                    $content .= $info['ip'] 。 '#电信_喵先生优选' . "\r\n";
                 }
             } else {
-                $txt .= $txt . $info['ip'] . '#' . $info['ip'] . "<br>";
+                $txt .= $txt . $info['ip'] 。 '#' . $info['ip'] . "<br>";
                 $content .= $info['ip'] . '#' . $info['ip'] . "\r\n";
             }
         }
